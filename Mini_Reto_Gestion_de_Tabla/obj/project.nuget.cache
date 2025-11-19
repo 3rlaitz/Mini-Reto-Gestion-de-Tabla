@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "n3rvysIezvg=",
   "success": true,
   "projectFilePath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+=======
+  "dgSpecHash": "8yfbuqZeGdQ=",
+  "success": true,
+  "projectFilePath": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+>>>>>>> develop
   "expectedPackageFiles": [],
   "logs": []
 }
