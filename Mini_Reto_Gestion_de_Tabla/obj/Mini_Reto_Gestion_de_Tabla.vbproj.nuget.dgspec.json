@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {}
+    "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {
+    "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+        "projectUniqueName": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
         "projectName": "Mini_Reto_Gestion_de_Tabla",
-        "projectPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
-        "packagesPath": "C:\\Users\\win11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\",
+        "projectPath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+        "packagesPath": "C:\\Users\\Eneko Martin\\.nuget\\packages\\",
+        "outputPath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\win11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eneko Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

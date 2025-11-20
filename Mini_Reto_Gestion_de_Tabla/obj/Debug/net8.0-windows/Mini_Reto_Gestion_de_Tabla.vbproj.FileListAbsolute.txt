@@ -16,3 +16,22 @@ C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabl
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.genruntimeconfig.cache
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\ref\Mini_Reto_Gestion_de_Tabla.dll
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.Form2.resources
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\bin\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.exe
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\bin\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.deps.json
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\bin\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.runtimeconfig.json
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\bin\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.dll
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\bin\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.pdb
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.Anadir.resources
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.Form1.resources
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.Form2.resources
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.vbproj.GenerateResource.cache
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.GeneratedMSBuildEditorConfig.editorconfig
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.AssemblyInfoInputs.cache
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.AssemblyInfo.vb
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.vbproj.CoreCompileInputs.cache
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.sourcelink.json
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.dll
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\refint\Mini_Reto_Gestion_de_Tabla.dll
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.pdb
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.genruntimeconfig.cache
+C:\DAM3\2º\AccesoADatos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\ref\Mini_Reto_Gestion_de_Tabla.dll

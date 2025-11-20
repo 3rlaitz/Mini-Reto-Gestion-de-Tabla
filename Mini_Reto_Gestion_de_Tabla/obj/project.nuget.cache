@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "n3rvysIezvg=",
+  "dgSpecHash": "7RuZAS9fU8o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+  "projectFilePath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
-      "message": "Problema al leer el archivo de caché C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+      "message": "Problema al leer el archivo de caché C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+      "filePath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
       "targetGraphs": []
     }
   ]
