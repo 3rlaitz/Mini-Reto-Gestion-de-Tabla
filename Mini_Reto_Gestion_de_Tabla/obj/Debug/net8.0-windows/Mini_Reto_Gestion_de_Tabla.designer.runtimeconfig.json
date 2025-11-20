@@ -13,11 +13,16 @@
     ],
     "additionalProbingPaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "C:\\Users\\Eneko Martin\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Eneko Martin\\.nuget\\packages",
 =======
       "C:\\Users\\-\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\-\\.nuget\\packages",
+>>>>>>> develop
+=======
+      "C:\\Users\\win11\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\win11\\.nuget\\packages",
 >>>>>>> develop
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],

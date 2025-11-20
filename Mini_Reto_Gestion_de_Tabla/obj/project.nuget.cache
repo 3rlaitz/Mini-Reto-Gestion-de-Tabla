@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "7RuZAS9fU8o=",
   "success": true,
   "projectFilePath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
@@ -9,6 +10,21 @@
   "success": true,
   "projectFilePath": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
 >>>>>>> develop
+=======
+  "dgSpecHash": "n3rvysIezvg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+>>>>>>> develop
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problema al leer el archivo de caché C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+      "targetGraphs": []
+    }
+  ]
 }
