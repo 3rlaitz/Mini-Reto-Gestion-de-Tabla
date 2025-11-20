@@ -46,9 +46,9 @@
 
         Dim juego1 As New Videojuego("The Legend of Zelda", "Nintendo Switch", "Nintendo", 2017, 3600, "Eneko")
         Dim juego2 As New Videojuego("God of War", "PS4", "Sony", 2018, 4200, "Ana")
-        Dim juego3 As New Videojuego("Cyberpunk 2077", "PC", "CD Projekt", 2020, 5400, "Luis")
-        Dim juego4 As New Videojuego("Hollow Knight", "PC", "Team Cherry", 2017, 3000, "Marta")
-        Dim juego5 As New Videojuego("Minecraft", "PC", "Mojang", 2011, 6000, "Carlos")
+        'Dim juego3 As New Videojuego("Cyberpunk 2077", "PC", "CD Projekt", 2020, 5400, "Luis")
+        'Dim juego4 As New Videojuego("Hollow Knight", "PC", "Team Cherry", 2017, 3000, "Marta")
+        'Dim juego5 As New Videojuego("Minecraft", "PC", "Mojang", 2011, 6000, "Carlos")
         listado.AniadirVideojuego(juego1)
         listado.AniadirVideojuego(juego2)
 
