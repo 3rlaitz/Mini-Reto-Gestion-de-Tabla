@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-
+    Private listado As New Listado()
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim btEliminar As New DataGridViewButtonColumn()
         btEliminar.Name = "colEliminar"
@@ -19,7 +19,7 @@
     End Sub
 
     Private Sub btAniadir_Click(sender As Object, e As EventArgs) Handles btAniadir.Click
-        Anadir.Show()
+        Anadir.Mostrar(listado)
         Me.Hide()
     End Sub
 End Class
