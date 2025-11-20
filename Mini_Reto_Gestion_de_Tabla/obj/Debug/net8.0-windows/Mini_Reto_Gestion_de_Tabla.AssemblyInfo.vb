@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Mini_Reto_Gestion_de_Tabla"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed44184f275af8c145aa9545c110566ac615c477"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f2addded87bf8362692332f624ae5a2c7a423d"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Mini_Reto_Gestion_de_Tabla"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Mini_Reto_Gestion_de_Tabla"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
