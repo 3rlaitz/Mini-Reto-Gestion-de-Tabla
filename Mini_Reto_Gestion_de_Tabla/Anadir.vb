@@ -20,13 +20,17 @@
                 MsgBox("Debes rellenar todos los campos!!!")
                 Return
             End If
-            If txtAnio.Text <= 2026 Then
-                Convert.ToInt32(txtAnio.Text)
-            Else
+            If txtAnio.Text > 2026 Then
                 MsgBox("Año incorrecto!!!")
+                Return
             End If
+            Dim anio As Integer = Convert.ToInt32(txtAnio.Text)
+            Dim speed As Integer = Convert.ToInt32(txtSpeedrun.Text)
+            Dim listado As New Listado
+            listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
         Catch ex As Exception
             MsgBox(ex.Message)
+            Return
         End Try
         Button2.PerformClick()
     End Sub
