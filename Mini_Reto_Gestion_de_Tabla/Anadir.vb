@@ -1,4 +1,10 @@
 ﻿Public Class Anadir
+    Private listado As Listado
+    Public Sub Mostrar(listado)
+        Me.listado = listado
+        Me.Show()
+    End Sub
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         txtAnio.Text = ""
         txtEstudio.Text = ""
@@ -26,12 +32,15 @@
             End If
             Dim anio As Integer = Convert.ToInt32(txtAnio.Text)
             Dim speed As Integer = Convert.ToInt32(txtSpeedrun.Text)
-            Dim listado As New Listado
-            listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
+            Me.listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
         Catch ex As Exception
             MsgBox(ex.Message)
             Return
         End Try
         Button2.PerformClick()
+    End Sub
+
+    Private Sub Anadir_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Form1.Show()
     End Sub
 End Class
