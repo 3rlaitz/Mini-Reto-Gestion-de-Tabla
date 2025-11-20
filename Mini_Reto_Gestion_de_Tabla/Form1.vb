@@ -17,5 +17,10 @@
         End If
 
     End Sub
+
+    Private Sub btAniadir_Click(sender As Object, e As EventArgs) Handles btAniadir.Click
+
+        Me.Hide()
+    End Sub
 End Class
 

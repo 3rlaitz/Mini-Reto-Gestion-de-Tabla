@@ -14,11 +14,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mini_Reto_Gestion_de_Tabla
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\
-=======
-build_property.ProjectDir = C:\repos\VB_WorkSpace\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\
->>>>>>> develop
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

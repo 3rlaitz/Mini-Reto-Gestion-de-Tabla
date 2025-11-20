@@ -15,3 +15,4 @@ C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabl
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.pdb
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.genruntimeconfig.cache
 C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\ref\Mini_Reto_Gestion_de_Tabla.dll
+C:\Users\win11\Desktop\DAM3\ACCESO A DATOS - Jon Ander\Mini-Reto-Gestion-de-Tabla\Mini_Reto_Gestion_de_Tabla\obj\Debug\net8.0-windows\Mini_Reto_Gestion_de_Tabla.Form2.resources
