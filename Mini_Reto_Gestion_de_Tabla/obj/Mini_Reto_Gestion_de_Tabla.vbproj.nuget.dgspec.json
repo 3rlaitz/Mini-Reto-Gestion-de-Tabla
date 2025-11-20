@@ -1,8 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {}
   },
   "projects": {
@@ -14,42 +12,12 @@
         "projectPath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
         "packagesPath": "C:\\Users\\Eneko Martin\\.nuget\\packages\\",
         "outputPath": "C:\\DAM3\\2º\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\",
-=======
-    "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {}
-=======
-    "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {}
->>>>>>> develop
-  },
-  "projects": {
-    "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
-        "projectName": "Mini_Reto_Gestion_de_Tabla",
-<<<<<<< HEAD
-        "projectPath": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
-        "packagesPath": "C:\\Users\\-\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\",
->>>>>>> develop
-=======
-        "projectPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
-        "packagesPath": "C:\\Users\\win11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\win11\\Desktop\\DAM3\\ACCESO A DATOS - Jon Ander\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\obj\\",
->>>>>>> develop
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
           "C:\\Users\\Eneko Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\-\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> develop
-=======
-          "C:\\Users\\win11\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> develop
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -66,7 +66,7 @@ Partial Class Anadir
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F)
-        Label2.Location = New Point(15, 30)
+        Label2.Location = New Point(13, 30)
         Label2.Name = "Label2"
         Label2.Size = New Size(50, 20)
         Label2.TabIndex = 2
@@ -75,7 +75,7 @@ Partial Class Anadir
         ' txtTit
         ' 
         txtTit.Font = New Font("Segoe UI", 9F)
-        txtTit.Location = New Point(139, 30)
+        txtTit.Location = New Point(137, 30)
         txtTit.Name = "txtTit"
         txtTit.Size = New Size(125, 27)
         txtTit.TabIndex = 3
@@ -101,7 +101,7 @@ Partial Class Anadir
         ' txtAnio
         ' 
         txtAnio.Font = New Font("Segoe UI", 9F)
-        txtAnio.Location = New Point(141, 139)
+        txtAnio.Location = New Point(139, 139)
         txtAnio.Name = "txtAnio"
         txtAnio.Size = New Size(125, 27)
         txtAnio.TabIndex = 7
@@ -110,7 +110,7 @@ Partial Class Anadir
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F)
-        Label4.Location = New Point(15, 139)
+        Label4.Location = New Point(13, 139)
         Label4.Name = "Label4"
         Label4.Size = New Size(113, 20)
         Label4.TabIndex = 6
@@ -119,7 +119,7 @@ Partial Class Anadir
         ' txtPlat
         ' 
         txtPlat.Font = New Font("Segoe UI", 9F)
-        txtPlat.Location = New Point(139, 82)
+        txtPlat.Location = New Point(137, 82)
         txtPlat.Name = "txtPlat"
         txtPlat.Size = New Size(125, 27)
         txtPlat.TabIndex = 9
@@ -128,7 +128,7 @@ Partial Class Anadir
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 9F)
-        Label5.Location = New Point(15, 82)
+        Label5.Location = New Point(13, 82)
         Label5.Name = "Label5"
         Label5.Size = New Size(85, 20)
         Label5.TabIndex = 8
@@ -137,7 +137,7 @@ Partial Class Anadir
         ' Button2
         ' 
         Button2.Font = New Font("Segoe UI", 10.2F)
-        Button2.Location = New Point(266, 312)
+        Button2.Location = New Point(272, 312)
         Button2.Name = "Button2"
         Button2.Size = New Size(146, 48)
         Button2.TabIndex = 10
@@ -147,7 +147,7 @@ Partial Class Anadir
         ' btVolver
         ' 
         btVolver.Font = New Font("Segoe UI", 10.2F)
-        btVolver.Location = New Point(483, 312)
+        btVolver.Location = New Point(495, 312)
         btVolver.Name = "btVolver"
         btVolver.Size = New Size(146, 48)
         btVolver.TabIndex = 11
@@ -198,9 +198,10 @@ Partial Class Anadir
         GroupBox1.Controls.Add(txtAnio)
         GroupBox1.Controls.Add(Label5)
         GroupBox1.Controls.Add(txtPlat)
+        GroupBox1.ImeMode = ImeMode.NoControl
         GroupBox1.Location = New Point(43, 90)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(586, 203)
+        GroupBox1.Size = New Size(598, 203)
         GroupBox1.TabIndex = 16
         GroupBox1.TabStop = False
         ' 
