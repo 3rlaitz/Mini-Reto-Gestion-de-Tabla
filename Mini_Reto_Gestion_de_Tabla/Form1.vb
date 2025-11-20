@@ -1,5 +1,6 @@
 ﻿Public Class Form1
     Private resultado As DialogResult
+    Private listado As New Listado()
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         cargarVideojuegos()
@@ -32,14 +33,15 @@
     End Sub
 
     Private Sub btAniadir_Click(sender As Object, e As EventArgs) Handles btAniadir.Click
-        Anadir.Show()
+        Anadir.Mostrar(listado)
         Me.Hide()
     End Sub
 
-    'Otros metodos
+    Private Sub btGuardar_Click(sender As Object, e As EventArgs) Handles btGuardar.Click
+        listado.GuardarListado()
+    End Sub
 
-    Private Sub cargarVideojuegos()
-        Dim listado As New Listado()
+    Public Sub cargarVideojuegos()
         dgvTablaVideojuegos.Rows.Clear()
 
         Dim juego1 As New Videojuego("The Legend of Zelda", "Nintendo Switch", "Nintendo", 2017, 3600, "Eneko")
@@ -50,7 +52,7 @@
         listado.AniadirVideojuego(juego1)
         listado.AniadirVideojuego(juego2)
 
-        For Each videojuego As Videojuego In listado.PListado
+        For Each videojuego As Videojuego In Me.listado.PListado
             dgvTablaVideojuegos.Rows.Add(videojuego.PTitulo, videojuego.PPlataforma, videojuego.PEstudio, videojuego.PAnioEstreno, videojuego.PTiempoSpeedrun, videojuego.PSpeedrunner)
         Next
     End Sub
