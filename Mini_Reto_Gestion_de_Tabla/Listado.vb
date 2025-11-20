@@ -1,4 +1,6 @@
-﻿Public Class Listado
+﻿Imports System.IO
+
+Public Class Listado
     Private listado As ArrayList
 
     Public Sub New()
@@ -20,8 +22,26 @@
 
     Public Sub BorrarVideojuego(indice As Integer)
         If indice < 0 OrElse indice >= listado.Count Then
-            Throw New ArgumentOutOfRangeException("Índice fuera de rango")
+            MsgBox("Índice fuera de rango")
+            Return
         End If
         listado.RemoveAt(indice)
+    End Sub
+
+    Public Sub GuardarListado()
+        Dim linea = "titulo;plataforma;estudio;anioEstreno;tiempoSpeedrun;speedrunner"
+        Dim lineaDatos As String
+        Try
+            Dim sw = New StreamWriter("videojuegos.txt", True)
+            sw.WriteLine(linea)
+            For Each videojuego As Videojuego In listado
+                lineaDatos = $"{videojuego.PTitulo};{videojuego.PPlataforma};{videojuego.PEstudio};{videojuego.PAnioEstreno};{videojuego.PTiempoSpeedrun};{videojuego.PSpeedrunner}"
+                sw.WriteLine(linea)
+            Next
+            sw.Close()
+            MsgBox("Guardado con exito")
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 End Class
