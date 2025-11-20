@@ -32,7 +32,7 @@ Partial Class Form1
         colAnioEstreno = New DataGridViewTextBoxColumn()
         colTiempoSpeedrun = New DataGridViewTextBoxColumn()
         colRecordista = New DataGridViewTextBoxColumn()
-        colEliminar = New DataGridViewTextBoxColumn()
+        colEliminar = New DataGridViewButtonColumn()
         CType(dgvTablaVideojuegos, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -134,6 +134,9 @@ Partial Class Form1
         colEliminar.MinimumWidth = 6
         colEliminar.Name = "colEliminar"
         colEliminar.ReadOnly = True
+        colEliminar.Resizable = DataGridViewTriState.True
+        colEliminar.SortMode = DataGridViewColumnSortMode.Automatic
+        colEliminar.Text = "X"
         colEliminar.Width = 125
         ' 
         ' Form1
@@ -162,6 +165,6 @@ Partial Class Form1
     Friend WithEvents colAnioEstreno As DataGridViewTextBoxColumn
     Friend WithEvents colTiempoSpeedrun As DataGridViewTextBoxColumn
     Friend WithEvents colRecordista As DataGridViewTextBoxColumn
-    Friend WithEvents colEliminar As DataGridViewTextBoxColumn
+    Friend WithEvents colEliminar As DataGridViewButtonColumn
 
 End Class
