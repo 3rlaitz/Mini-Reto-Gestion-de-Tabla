@@ -17,7 +17,6 @@
 
     Private Sub btVolver_Click(sender As Object, e As EventArgs) Handles btVolver.Click
         Close()
-        Form1.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -42,5 +41,6 @@
 
     Private Sub Anadir_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Form1.Show()
+        Form1.cargarVideojuegos()
     End Sub
 End Class
