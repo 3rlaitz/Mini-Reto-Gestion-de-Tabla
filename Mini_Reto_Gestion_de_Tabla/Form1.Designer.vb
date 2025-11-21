@@ -103,11 +103,11 @@ Partial Class Form1
         lbTitulo.AutoSize = True
         lbTitulo.BorderStyle = BorderStyle.FixedSingle
         lbTitulo.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lbTitulo.Location = New Point(394, 40)
+        lbTitulo.Location = New Point(321, 30)
         lbTitulo.Name = "lbTitulo"
-        lbTitulo.Size = New Size(223, 43)
+        lbTitulo.Size = New Size(401, 43)
         lbTitulo.TabIndex = 1
-        lbTitulo.Text = "VIDEOJUEGOS"
+        lbTitulo.Text = "LISTADO DE VIDEOJUEGOS"
         ' 
         ' btAniadir
         ' 

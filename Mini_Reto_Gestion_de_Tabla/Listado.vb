@@ -29,6 +29,11 @@ Public Class Listado
     End Sub
 
     Public Sub GuardarListado()
+        If listado.Count <= 0 Then
+            MsgBox("No hay videojuegos para guardar")
+            Return
+        End If
+
         Dim linea = "titulo;plataforma;estudio;anioEstreno;tiempoSpeedrun;speedrunner"
         Try
             Dim sw = New StreamWriter("videojuegos.txt")
