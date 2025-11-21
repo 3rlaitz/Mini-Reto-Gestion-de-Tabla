@@ -21,19 +21,20 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
-            If txtAnio.Text = "" And txtEstudio.Text = "" And txtPlat.Text = "" And txtSpeedrun.Text = "" And txtSpeedrunner.Text = "" And txtTit.Text = "" Then
+            If String.IsNullOrWhiteSpace(txtAnio.Text) Or String.IsNullOrWhiteSpace(txtEstudio.Text) Or String.IsNullOrWhiteSpace(txtPlat.Text) Or String.IsNullOrWhiteSpace(txtSpeedrun.Text) Or String.IsNullOrWhiteSpace(txtSpeedrunner.Text) Or String.IsNullOrWhiteSpace(txtTit.Text) Then
                 MsgBox("Debes rellenar todos los campos!!!")
-                Return
-            End If
-            If txtAnio.Text > 2026 Then
-                MsgBox("Año incorrecto!!!")
                 Return
             End If
             Dim anio As Integer = Convert.ToInt32(txtAnio.Text)
             Dim speed As Integer = Convert.ToInt32(txtSpeedrun.Text)
+            If anio >= 2026 Then
+                MsgBox("Año incorrecto!!!")
+                Return
+            End If
             Me.listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
+            MsgBox("Videojuego añadido con exito!")
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox("El año y el tiempo de speedrun debe de ser numerico")
             Return
         End Try
         Button2.PerformClick()

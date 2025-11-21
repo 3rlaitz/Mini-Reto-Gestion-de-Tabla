@@ -168,9 +168,9 @@ Partial Class Anadir
         Label6.Font = New Font("Segoe UI", 9F)
         Label6.Location = New Point(325, 172)
         Label6.Name = "Label6"
-        Label6.Size = New Size(75, 20)
+        Label6.Size = New Size(149, 20)
         Label6.TabIndex = 14
-        Label6.Text = "Speedrun:"
+        Label6.Text = "Tiempo de speedrun:"
         ' 
         ' txtEstudio
         ' 

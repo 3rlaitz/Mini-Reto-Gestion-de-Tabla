@@ -30,12 +30,11 @@ Public Class Listado
 
     Public Sub GuardarListado()
         Dim linea = "titulo;plataforma;estudio;anioEstreno;tiempoSpeedrun;speedrunner"
-        Dim lineaDatos As String
         Try
-            Dim sw = New StreamWriter("videojuegos.txt", True)
+            Dim sw = New StreamWriter("videojuegos.txt")
             sw.WriteLine(linea)
             For Each videojuego As Videojuego In listado
-                lineaDatos = $"{videojuego.PTitulo};{videojuego.PPlataforma};{videojuego.PEstudio};{videojuego.PAnioEstreno};{videojuego.PTiempoSpeedrun};{videojuego.PSpeedrunner}"
+                linea = $"{videojuego.PTitulo};{videojuego.PPlataforma};{videojuego.PEstudio};{videojuego.PAnioEstreno};{videojuego.PTiempoSpeedrun};{videojuego.PSpeedrunner}"
                 sw.WriteLine(linea)
             Next
             sw.Close()
