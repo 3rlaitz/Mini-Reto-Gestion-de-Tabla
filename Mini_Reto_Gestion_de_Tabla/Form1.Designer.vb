@@ -29,25 +29,25 @@ Partial Class Form1
         colAnioEstreno = New DataGridViewTextBoxColumn()
         colTiempoSpeedrun = New DataGridViewTextBoxColumn()
         colRecordista = New DataGridViewTextBoxColumn()
-        colEliminar = New DataGridViewButtonColumn()
         lbTitulo = New Label()
         btAniadir = New Button()
         btGuardar = New Button()
+        btCargar = New Button()
         CType(dgvTablaVideojuegos, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' dgvTablaVideojuegos
         ' 
         dgvTablaVideojuegos.AllowUserToAddRows = False
-        dgvTablaVideojuegos.BackgroundColor = Color.Turquoise
+        dgvTablaVideojuegos.BackgroundColor = Color.Silver
         dgvTablaVideojuegos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvTablaVideojuegos.Columns.AddRange(New DataGridViewColumn() {colTitVideojuego, colPlataforma, colEstudioDesarrollo, colAnioEstreno, colTiempoSpeedrun, colRecordista, colEliminar})
-        dgvTablaVideojuegos.Location = New Point(40, 104)
+        dgvTablaVideojuegos.Columns.AddRange(New DataGridViewColumn() {colTitVideojuego, colPlataforma, colEstudioDesarrollo, colAnioEstreno, colTiempoSpeedrun, colRecordista})
+        dgvTablaVideojuegos.Location = New Point(35, 104)
         dgvTablaVideojuegos.MultiSelect = False
         dgvTablaVideojuegos.Name = "dgvTablaVideojuegos"
         dgvTablaVideojuegos.RowHeadersWidth = 51
         dgvTablaVideojuegos.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgvTablaVideojuegos.Size = New Size(927, 406)
+        dgvTablaVideojuegos.Size = New Size(928, 406)
         dgvTablaVideojuegos.TabIndex = 0
         ' 
         ' colTitVideojuego
@@ -98,17 +98,6 @@ Partial Class Form1
         colRecordista.ReadOnly = True
         colRecordista.Width = 125
         ' 
-        ' colEliminar
-        ' 
-        colEliminar.HeaderText = "Eliminar"
-        colEliminar.MinimumWidth = 6
-        colEliminar.Name = "colEliminar"
-        colEliminar.ReadOnly = True
-        colEliminar.Resizable = DataGridViewTriState.True
-        colEliminar.SortMode = DataGridViewColumnSortMode.Automatic
-        colEliminar.Text = "X"
-        colEliminar.Width = 125
-        ' 
         ' lbTitulo
         ' 
         lbTitulo.AutoSize = True
@@ -123,9 +112,9 @@ Partial Class Form1
         ' btAniadir
         ' 
         btAniadir.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btAniadir.Location = New Point(237, 555)
+        btAniadir.Location = New Point(173, 560)
         btAniadir.Name = "btAniadir"
-        btAniadir.Size = New Size(167, 48)
+        btAniadir.Size = New Size(167, 43)
         btAniadir.TabIndex = 2
         btAniadir.Text = "AÑADIR"
         btAniadir.UseVisualStyleBackColor = True
@@ -133,18 +122,29 @@ Partial Class Form1
         ' btGuardar
         ' 
         btGuardar.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btGuardar.Location = New Point(565, 560)
+        btGuardar.Location = New Point(435, 560)
         btGuardar.Name = "btGuardar"
         btGuardar.Size = New Size(168, 43)
         btGuardar.TabIndex = 3
         btGuardar.Text = "GUARDAR"
         btGuardar.UseVisualStyleBackColor = True
         ' 
+        ' btCargar
+        ' 
+        btCargar.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btCargar.Location = New Point(708, 560)
+        btCargar.Name = "btCargar"
+        btCargar.Size = New Size(167, 43)
+        btCargar.TabIndex = 4
+        btCargar.Text = "CARGAR 5 VALORES"
+        btCargar.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(989, 634)
+        Controls.Add(btCargar)
         Controls.Add(btGuardar)
         Controls.Add(btAniadir)
         Controls.Add(lbTitulo)
@@ -160,12 +160,12 @@ Partial Class Form1
     Friend WithEvents lbTitulo As Label
     Friend WithEvents btAniadir As Button
     Friend WithEvents btGuardar As Button
+    Friend WithEvents btCargar As Button
     Friend WithEvents colTitVideojuego As DataGridViewTextBoxColumn
     Friend WithEvents colPlataforma As DataGridViewTextBoxColumn
     Friend WithEvents colEstudioDesarrollo As DataGridViewTextBoxColumn
     Friend WithEvents colAnioEstreno As DataGridViewTextBoxColumn
     Friend WithEvents colTiempoSpeedrun As DataGridViewTextBoxColumn
     Friend WithEvents colRecordista As DataGridViewTextBoxColumn
-    Friend WithEvents colEliminar As DataGridViewButtonColumn
 
 End Class

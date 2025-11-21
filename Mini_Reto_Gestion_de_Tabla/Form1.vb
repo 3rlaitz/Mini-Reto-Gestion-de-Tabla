@@ -43,18 +43,18 @@
 
     Public Sub cargarVideojuegos()
         dgvTablaVideojuegos.Rows.Clear()
-
-        Dim juego1 As New Videojuego("The Legend of Zelda", "Nintendo Switch", "Nintendo", 2017, 3600, "Eneko")
-        Dim juego2 As New Videojuego("God of War", "PS4", "Sony", 2018, 4200, "Ana")
-        'Dim juego3 As New Videojuego("Cyberpunk 2077", "PC", "CD Projekt", 2020, 5400, "Luis")
-        'Dim juego4 As New Videojuego("Hollow Knight", "PC", "Team Cherry", 2017, 3000, "Marta")
-        'Dim juego5 As New Videojuego("Minecraft", "PC", "Mojang", 2011, 6000, "Carlos")
-        listado.AniadirVideojuego(juego1)
-        listado.AniadirVideojuego(juego2)
-
         For Each videojuego As Videojuego In Me.listado.PListado
             dgvTablaVideojuegos.Rows.Add(videojuego.PTitulo, videojuego.PPlataforma, videojuego.PEstudio, videojuego.PAnioEstreno, videojuego.PTiempoSpeedrun, videojuego.PSpeedrunner)
         Next
+    End Sub
+
+    Private Sub btCargar_Click(sender As Object, e As EventArgs) Handles btCargar.Click
+        listado.AniadirVideojuego(New Videojuego("Balatro", "PC", "LocalThunk", 2024, 8000, "Erlaitz"))
+        listado.AniadirVideojuego(New Videojuego("God of War", "PS4", "Sony", 2018, 4200, "Beñat"))
+        listado.AniadirVideojuego(New Videojuego("Hollow Knight", "PC", "Team Cherry", 2017, 3000, "Arkaitz"))
+        listado.AniadirVideojuego(New Videojuego("Minecraft", "PC", "Mojang", 2011, 6000, "Ieltxu"))
+        listado.AniadirVideojuego(New Videojuego("The Legend of Zelda", "Nintendo Switch", "Nintendo", 2017, 3600, "Eneko"))
+        cargarVideojuegos()
     End Sub
 End Class
 
