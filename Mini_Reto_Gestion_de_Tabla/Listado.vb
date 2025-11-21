@@ -30,7 +30,7 @@ Public Class Listado
 
     Public Sub GuardarListado()
         If listado.Count <= 0 Then
-            MsgBox("No hay videojuegos para guardar")
+            MsgBox("No hay videojuegos para guardar", MessageBoxIcon.Error)
             Return
         End If
 
@@ -43,9 +43,9 @@ Public Class Listado
                 sw.WriteLine(linea)
             Next
             sw.Close()
-            MsgBox("Guardado con exito")
+            MsgBox("Guardado con exito", MessageBoxIcon.Information)
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox(ex.Message, MessageBoxIcon.Error)
         End Try
     End Sub
 End Class
