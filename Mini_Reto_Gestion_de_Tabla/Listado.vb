@@ -30,7 +30,7 @@ Public Class Listado
 
     Public Sub GuardarListado()
         If listado.Count <= 0 Then
-            MsgBox("No hay videojuegos para guardar")
+            MsgBox("No hay videojuegos para guardar", MessageBoxIcon.Error)
             Return
         End If
 
