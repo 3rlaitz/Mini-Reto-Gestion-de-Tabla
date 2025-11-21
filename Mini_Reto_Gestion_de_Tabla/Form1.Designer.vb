@@ -23,9 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         dgvTablaVideojuegos = New DataGridView()
-        lbTitulo = New Label()
-        btAniadir = New Button()
-        btGuardar = New Button()
         colTitVideojuego = New DataGridViewTextBoxColumn()
         colPlataforma = New DataGridViewTextBoxColumn()
         colEstudioDesarrollo = New DataGridViewTextBoxColumn()
@@ -33,11 +30,15 @@ Partial Class Form1
         colTiempoSpeedrun = New DataGridViewTextBoxColumn()
         colRecordista = New DataGridViewTextBoxColumn()
         colEliminar = New DataGridViewButtonColumn()
+        lbTitulo = New Label()
+        btAniadir = New Button()
+        btGuardar = New Button()
         CType(dgvTablaVideojuegos, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' dgvTablaVideojuegos
         ' 
+        dgvTablaVideojuegos.AllowUserToAddRows = False
         dgvTablaVideojuegos.BackgroundColor = Color.Turquoise
         dgvTablaVideojuegos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         dgvTablaVideojuegos.Columns.AddRange(New DataGridViewColumn() {colTitVideojuego, colPlataforma, colEstudioDesarrollo, colAnioEstreno, colTiempoSpeedrun, colRecordista, colEliminar})
@@ -48,37 +49,6 @@ Partial Class Form1
         dgvTablaVideojuegos.SelectionMode = DataGridViewSelectionMode.FullRowSelect
         dgvTablaVideojuegos.Size = New Size(927, 406)
         dgvTablaVideojuegos.TabIndex = 0
-        ' 
-        ' lbTitulo
-        ' 
-        lbTitulo.AutoSize = True
-        lbTitulo.BorderStyle = BorderStyle.FixedSingle
-        lbTitulo.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lbTitulo.Location = New Point(394, 40)
-        lbTitulo.Name = "lbTitulo"
-        lbTitulo.Size = New Size(223, 43)
-        lbTitulo.TabIndex = 1
-        lbTitulo.Text = "VIDEOJUEGOS"
-        ' 
-        ' btAniadir
-        ' 
-        btAniadir.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btAniadir.Location = New Point(237, 555)
-        btAniadir.Name = "btAniadir"
-        btAniadir.Size = New Size(167, 48)
-        btAniadir.TabIndex = 2
-        btAniadir.Text = "AÑADIR"
-        btAniadir.UseVisualStyleBackColor = True
-        ' 
-        ' btGuardar
-        ' 
-        btGuardar.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btGuardar.Location = New Point(565, 560)
-        btGuardar.Name = "btGuardar"
-        btGuardar.Size = New Size(168, 43)
-        btGuardar.TabIndex = 3
-        btGuardar.Text = "GUARDAR"
-        btGuardar.UseVisualStyleBackColor = True
         ' 
         ' colTitVideojuego
         ' 
@@ -138,6 +108,37 @@ Partial Class Form1
         colEliminar.SortMode = DataGridViewColumnSortMode.Automatic
         colEliminar.Text = "X"
         colEliminar.Width = 125
+        ' 
+        ' lbTitulo
+        ' 
+        lbTitulo.AutoSize = True
+        lbTitulo.BorderStyle = BorderStyle.FixedSingle
+        lbTitulo.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbTitulo.Location = New Point(394, 40)
+        lbTitulo.Name = "lbTitulo"
+        lbTitulo.Size = New Size(223, 43)
+        lbTitulo.TabIndex = 1
+        lbTitulo.Text = "VIDEOJUEGOS"
+        ' 
+        ' btAniadir
+        ' 
+        btAniadir.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btAniadir.Location = New Point(237, 555)
+        btAniadir.Name = "btAniadir"
+        btAniadir.Size = New Size(167, 48)
+        btAniadir.TabIndex = 2
+        btAniadir.Text = "AÑADIR"
+        btAniadir.UseVisualStyleBackColor = True
+        ' 
+        ' btGuardar
+        ' 
+        btGuardar.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btGuardar.Location = New Point(565, 560)
+        btGuardar.Name = "btGuardar"
+        btGuardar.Size = New Size(168, 43)
+        btGuardar.TabIndex = 3
+        btGuardar.Text = "GUARDAR"
+        btGuardar.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 

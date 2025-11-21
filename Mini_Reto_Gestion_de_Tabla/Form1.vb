@@ -23,11 +23,11 @@
                 If (resultado = DialogResult.Yes) Then
                     dgvTablaVideojuegos.Rows.RemoveAt(filaSeleccionada)
                 Else
-                    MsgBox("Operación cancelada")
+                    MsgBox("Operación cancelada", MessageBoxIcon.Information)
                 End If
             End If
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox(ex.Message, MessageBoxIcon.Error)
 
         End Try
     End Sub
