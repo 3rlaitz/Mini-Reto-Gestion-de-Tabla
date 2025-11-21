@@ -31,6 +31,10 @@
                 MsgBox("Año incorrecto!!!")
                 Return
             End If
+            If speed <= 0 Then
+                MsgBox("No puede existir ese tiempo record!!!")
+                Return
+            End If
             Me.listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
             MsgBox("Videojuego añadido con exito!")
         Catch ex As Exception
