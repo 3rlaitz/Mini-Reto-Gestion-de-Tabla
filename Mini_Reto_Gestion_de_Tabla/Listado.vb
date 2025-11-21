@@ -38,9 +38,9 @@ Public Class Listado
                 sw.WriteLine(linea)
             Next
             sw.Close()
-            MsgBox("Guardado con exito")
+            MsgBox("Guardado con exito", MessageBoxIcon.Information)
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox(ex.Message, MessageBoxIcon.Error)
         End Try
     End Sub
 End Class

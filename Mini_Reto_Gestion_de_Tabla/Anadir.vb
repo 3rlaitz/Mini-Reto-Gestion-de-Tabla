@@ -12,6 +12,7 @@
         txtSpeedrun.Text = ""
         txtSpeedrunner.Text = ""
         txtTit.Text = ""
+        MsgBox("Se limpiaron todos los campos", MessageBoxIcon.Information)
         btVolver.Focus()
     End Sub
 
@@ -22,13 +23,13 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             If String.IsNullOrWhiteSpace(txtAnio.Text) Or String.IsNullOrWhiteSpace(txtEstudio.Text) Or String.IsNullOrWhiteSpace(txtPlat.Text) Or String.IsNullOrWhiteSpace(txtSpeedrun.Text) Or String.IsNullOrWhiteSpace(txtSpeedrunner.Text) Or String.IsNullOrWhiteSpace(txtTit.Text) Then
-                MsgBox("Debes rellenar todos los campos!!!")
+                MsgBox("Debes rellenar todos los campos!!!", MessageBoxIcon.Error)
                 Return
             End If
             Dim anio As Integer = Convert.ToInt32(txtAnio.Text)
             Dim speed As Integer = Convert.ToInt32(txtSpeedrun.Text)
             If anio >= 2026 Then
-                MsgBox("Año incorrecto!!!")
+                MsgBox("Año incorrecto!!!", MessageBoxIcon.Error)
                 Return
             End If
             If speed <= 0 Then
@@ -36,9 +37,9 @@
                 Return
             End If
             Me.listado.AniadirVideojuego(New Videojuego(txtTit.Text, txtPlat.Text, txtEstudio.Text, anio, speed, txtSpeedrunner.Text))
-            MsgBox("Videojuego añadido con exito!")
+            MsgBox("Videojuego añadido con exito!", MessageBoxIcon.Information)
         Catch ex As Exception
-            MsgBox("El año y el tiempo de speedrun debe de ser numerico")
+            MsgBox("El año y el tiempo de speedrun debe de ser numerico", MessageBoxIcon.Error)
             Return
         End Try
         Button2.PerformClick()
