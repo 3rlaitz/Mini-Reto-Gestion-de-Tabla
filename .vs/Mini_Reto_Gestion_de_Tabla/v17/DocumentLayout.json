@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\",
+  "WorkspaceRootPath": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\dam3\\2\u00BA\\accesoadatos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\listado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\listado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\mini_reto_gestion_de_tabla.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\mini_reto_gestion_de_tabla.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\dam3\\2\u00BA\\accesoadatos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\anadir.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\dam3\\2\u00BA\\accesoadatos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\repos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|c:\\dam3\\2\u00BA\\accesoadatos\\vb_workspace\\mini-reto-gestion-de-tabla\\mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F1A3988E-35A6-4750-ACBA-67978EBA171F}|Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj|solutionrelative:mini_reto_gestion_de_tabla\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +34,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
-              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Form1.vb",
-              "ToolTip": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
-              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Form1.vb",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Listado.vb",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Listado.vb",
+              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Listado.vb",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Listado.vb",
+              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Listado.vb",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-20T09:50:06.313Z"
+              "WhenOpened": "2025-11-21T11:21:11.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Anadir.vb",
-              "DocumentMoniker": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
-              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
-              "ToolTip": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
-              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-19T10:17:15.632Z",
+              "DocumentIndex": 2,
+              "Title": "Mini_Reto_Gestion_de_Tabla",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Mini_Reto_Gestion_de_Tabla.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2025-11-21T10:38:07.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Anadir.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
+              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Form1.vb",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
+              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Form1.vb",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvxUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-20T09:50:06.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Anadir.vb",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
               "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
-              "ToolTip": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
+              "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-19T10:17:15.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Anadir.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
+              "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Anadir.vb [Dise\u00F1o]",
               "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Anadir.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-19T10:14:43.223Z",
@@ -67,11 +100,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
+              "DocumentMoniker": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb",
               "RelativeDocumentMoniker": "Mini_Reto_Gestion_de_Tabla\\Form1.vb",
-              "ToolTip": "C:\\DAM3\\2\u00BA\\AccesoADatos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\repos\\VB_WorkSpace\\Mini-Reto-Gestion-de-Tabla\\Mini_Reto_Gestion_de_Tabla\\Form1.vb [Dise\u00F1o]",
               "RelativeToolTip": "Mini_Reto_Gestion_de_Tabla\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-19T09:26:32.145Z",
