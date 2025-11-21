@@ -22,13 +22,13 @@
                 resultado = MessageBox.Show(mensaje, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Question)
                 If (resultado = DialogResult.Yes) Then
                     dgvTablaVideojuegos.Rows.RemoveAt(filaSeleccionada)
+                    listado.BorrarVideojuego(filaSeleccionada)
                 Else
                     MsgBox("Operación cancelada", MessageBoxIcon.Information)
                 End If
             End If
         Catch ex As Exception
             MsgBox(ex.Message, MessageBoxIcon.Error)
-
         End Try
     End Sub
 
